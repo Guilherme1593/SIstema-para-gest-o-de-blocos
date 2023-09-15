@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema para gestão de blocos", "Sistema para gestão de blocos\Sistema para gestão de blocos.csproj", "{155A2B75-87AC-46AF-9943-A26146B4FA00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155A2B75-87AC-46AF-9943-A26146B4FA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155A2B75-87AC-46AF-9943-A26146B4FA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155A2B75-87AC-46AF-9943-A26146B4FA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155A2B75-87AC-46AF-9943-A26146B4FA00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA533B5F-8787-4123-AFD4-46BE71F59A10}
+	EndGlobalSection
+EndGlobal
