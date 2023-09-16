@@ -17,11 +17,7 @@ public class GestorBlocos
         blocos.Add(bloco);
     }
 
-    // Método para remover um bloco da lista
-    public void RemoverBloco(Bloco bloco)
-    {
-        blocos.Remove(bloco);
-    }
+    
 
     // Método para listar todos os blocos
     public List<Bloco> ListarBlocos()
