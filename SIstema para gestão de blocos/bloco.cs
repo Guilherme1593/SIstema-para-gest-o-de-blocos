@@ -22,12 +22,6 @@ public class Bloco
         Material = material;
     }
 
-    // Método para calcular o volume do bloco
-    public double CalcularVolume()
-    {
-        return Comprimento * Largura * Espessura;
-    }
-
     // Sobrescrevendo o método ToString para exibir informações do bloco
     public override string ToString()
     {
