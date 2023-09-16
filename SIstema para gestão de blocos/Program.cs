@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Sistema_para_gestão_de_blocos
 {
@@ -55,26 +55,82 @@ namespace Sistema_para_gestão_de_blocos
         // Função para cadastrar um bloco com número, valor de compra e valor de venda
         static void CadastrarBloco(GestorBlocos gestor)
         {
+            double valorCompra = 0;
+            double valorVenda = 0;
+            double comprimento = 0;
+            double largura = 0;
+            double espessura = 0;
+
             Console.Write("Número do Bloco: ");
             string numero = Console.ReadLine();
 
-            Console.Write("Valor de Compra: ");
-            double valorCompra = double.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.Write("Valor de Compra: ");
+                if (double.TryParse(Console.ReadLine(), out valorCompra))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, insira um valor numérico válido para Valor de Compra.");
+                }
+            }
 
-            Console.Write("Valor de Venda: ");
-            double valorVenda = double.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.Write("Valor de Venda: ");
+                if (double.TryParse(Console.ReadLine(), out valorVenda))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, insira um valor numérico válido para Valor de Compra.");
+                }
+            }
 
             Console.Write("Nome do Bloco: ");
             string nome = Console.ReadLine();
 
-            Console.Write("Comprimento (mm): ");
-            double comprimento = double.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.Write("Comprimento (mm): ");
+                if (double.TryParse(Console.ReadLine(), out comprimento))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, insira um valor numérico válido para Valor de Compra.");
+                }
+            }
 
-            Console.Write("Largura (mm): ");
-            double largura = double.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.Write("Largura (mm): ");
+                if (double.TryParse(Console.ReadLine(), out largura))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, insira um valor numérico válido para Valor de Compra.");
+                }
+            }
 
-            Console.Write("Espessura (mm): ");
-            double espessura = double.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.Write("Espessura (mm): ");
+                if (double.TryParse(Console.ReadLine(), out espessura))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, insira um valor numérico válido para Valor de Compra.");
+                }
+            }
 
             Console.Write("Material: ");
             string material = Console.ReadLine();
